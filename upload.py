@@ -1,7 +1,7 @@
 import os
 import pyimgur
 
-CLIENT_ID = os.environ["IMGUR_API"]
+from my_settings import CLIENT_ID
 
 def upload_image(filename, title=None):
 	im = pyimgur.Imgur(CLIENT_ID)
