@@ -39,5 +39,4 @@ def upload_image(filename, title=None):
 	return uploaded_image
 
 
-#  from authorize import new_access_token
 
