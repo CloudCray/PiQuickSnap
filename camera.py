@@ -1,6 +1,7 @@
 import picamera
 
+camera = picamera.PiCamera()
+
 def take_photo(filename):
-	camera = picamera.PiCamera()
-	camera.resolution = (1024, 768)
+	camera.resolution = (640,480)
 	camera.capture(filename)
